@@ -29,7 +29,7 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-Deployment Link: https://vercel.com/ruchir0403s-projects/quiz-app-rob1/5BSXBuoAV4RinEqkoDXnQWRyKJ66
+Deployment Link: [https://vercel.com/ruchir0403s-projects/quiz-app-rob1/5BSXBuoAV4RinEqkoDXnQWRyKJ66](https://quiz-app-rob1.vercel.app/)
 
 ## Deploy on Vercel
 
