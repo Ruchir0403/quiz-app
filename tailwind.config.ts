@@ -11,8 +11,19 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        primary: "#2563eb", // Custom Blue
+        secondary: "#facc15", // Custom Yellow
+        correct: "#22c55e", // Green for correct answers
+        wrong: "#ef4444", // Red for wrong answers
+      },
+      fontFamily: {
+        sans: ["Inter", "sans-serif"],
+      },
+      container: {
+        center: true,
+        padding: "2rem",
       },
     },
   },
-  plugins: [],
+  plugins: [require("@tailwindcss/forms"), require("@tailwindcss/typography")],
 } satisfies Config;
