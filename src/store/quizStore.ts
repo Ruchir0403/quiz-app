@@ -1,5 +1,4 @@
 import { create } from "zustand";
-import { Question } from "@/types/quiz";
 import { questions } from "@/lib/questions";
 import { saveAttempt } from "@/lib/indexedDB";
 
@@ -14,7 +13,7 @@ type QuizState = {
   resetQuiz: () => void;
 };
 
-export const useQuizStore = create<QuizState>((set, get) => ({
+export const useQuizStore = create<QuizState>((set) => ({
   currentQuestionIndex: 0,
   selectedAnswers: {},
   score: 0,
